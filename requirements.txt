@@ -1,0 +1,6 @@
+opencv-python
+pyautogui
+keyboard
+colorama
+pygame
+pillow

@@ -1,0 +1,56 @@
+
+- **Material** = Axe type (Wooden, Stone, etc.)  
+- **E<Level>** = Efficiency enchantment level (0–5)  
+- **H<Haste>** = Haste effect level (0–2)  
+
+---
+
+## 🔹 Materials
+| Code | Material       |
+|------|----------------|
+| W    | Wooden Axe     |
+| S    | Stone Axe      |
+| I    | Iron Axe       |
+| D    | Diamond Axe    |
+| N    | Netherite Axe  |
+| G    | Golden Axe     |
+
+---
+
+## 🔹 Efficiency Levels
+| Code | Meaning                     |
+|------|-----------------------------|
+| E0   | No Efficiency               |
+| E1   | Efficiency I                |
+| E2   | Efficiency II               |
+| E3   | Efficiency III              |
+| E4   | Efficiency IV               |
+| E5   | Efficiency V                |
+
+---
+
+## 🔹 Haste Levels
+| Code | Meaning   |
+|------|-----------|
+| H0   | No Haste  |
+| H1   | Haste I   |
+| H2   | Haste II  |
+
+---
+
+## 🔹 Examples
+| Axe Code | Meaning                                          |
+|----------|--------------------------------------------------|
+| WAE0H0   | Wooden Axe, no Efficiency, no Haste              |
+| WAE1H0   | Wooden Axe, Efficiency I, no Haste               |
+| WAE0H1   | Wooden Axe, no Efficiency, Haste I               |
+| DAE5H0   | Diamond Axe, Efficiency V, no Haste              |
+| NAE5H2   | Netherite Axe, Efficiency V, Haste II            |
+| GAE3H1   | Golden Axe, Efficiency III, Haste I              |
+
+---
+
+## 📌 Notes
+- Codes not listed in `AXE_DICT` will not be accepted by the script.  
+- Use these codes when calling `get_axe_delay(axe_code)` to get the optimized delay for breaking a **Lectern** in Minecraft.  
+- The values are based on Minecraft Java Edition block-breaking mechanics (hardness = 2.5).  

@@ -16,7 +16,7 @@ Automate Minecraft villager enchantment trades with **AutoEnchantMC**! This Pyth
 ## 📦 Installation & Usage
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/YourUsername/AutoEnchantMC.git
+   git clone https://github.com/Symbols-ai/AutoEnchantMC.git
    cd AutoEnchantMC
    \`\`\`
 2. Install dependencies:
